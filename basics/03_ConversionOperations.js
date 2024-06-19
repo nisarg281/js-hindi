@@ -34,4 +34,22 @@ let num = -123;
 let numInStr = String(num)
 console.log(typeof numInStr);
 console.log(numInStr);
+
+// ------------------------------- Operations --------------------------------------------------
+
+console.log(2**3); // ** means power operation.
+
+// console.log(1+ "2"); // 12
+// console.log("1" +2); // 12
+// console.log(1+ 2 + "3"); //33
+// console.log("1" + 2 + 3); // 123
+
+
+//  -----------<<   ( + ) operator converts true into number.  >>-------
+// console.log(+true); // prints 1. 
+// console.log(true); //prints true
+// console.log("");    // prints empty string
+// console.log(+"");   // prints 1
+// console.log(+"nisa");   // prints NaN
+
     
